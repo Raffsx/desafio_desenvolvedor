@@ -1,0 +1,8 @@
+br/com/agenda/contatos/ContatosApplication.class
+br/com/agenda/contatos/dto/ContatoDto.class
+br/com/agenda/contatos/entity/Contato.class
+br/com/agenda/contatos/service/ContatoService.class
+br/com/agenda/contatos/exception/ObjectNotFoundException.class
+br/com/agenda/contatos/mapper/Mappable.class
+br/com/agenda/contatos/controller/ContatoController.class
+br/com/agenda/contatos/repository/ContatoRepository.class

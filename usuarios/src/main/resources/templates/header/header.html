@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+    <div class="container">
+        <a href="/usuario/formulario" class="navbar-brand h2 mb-0">Ponto Sistemas - Desafio Desenvolvedor</a>
+        <button class="navbar-toggler" type="submit" data-toggle="collapse" data-target="#navbarSite">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="colapse navbar-collapse" id="navbarSite">
+
+            <ul class="navbar-nav ml-10">
+                <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Usuario</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item" th:href="@{/usuario/formulario}">Cadastrar</a>
+                        <a href="#" class="dropdown-item" th:href="@{/usuario}">Listar</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+</nav>
+
+</body>
+</html>

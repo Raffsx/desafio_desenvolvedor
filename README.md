@@ -1,62 +1,14 @@
-# Desafio Desenvolvedor da Ponto Sistemas
+Cadastro de usuários
 
-## A Vaga
-Para se candidatar:  
+Consiste em um CRUD(acrónimo de Create, Read, Update e Delete) de cadastro de usuários utilizando Spring Boot MVC, Banco em memória H2, Thymeleaf, Lombok.
 
-- Conhecimento básico das tecnologias fundamentais da web (HTML, CSS, JavaScript e jQuery);
-- Capacidade de comunicação, comprometimento e vontade de pôr a mão na massa;
-
-## O Desafio
-Para avaliar o seu conhecimento temos um desafio para você.
-Você deverá criar um crud (acrónimo de Create, Read, Update e Delete) de cadastro de usuários.
-O mesmo deve ser feito na linguagem que vocÊ preferir, o mesmo deve conter os campos abaixo:
-
--nome
--idade
--email
-
-A aplicação deve permitir listar, cadastrar, editar e remover.
-
-Segue abaixo algumas imagens como sugestão.
-
-- Lista de Usuários
-
-![Lista Usuarios](img/TelaListagem.png)
-
--Cadastro de Usuários
-
-![Cadastro Usuario](img/TelaCadastro.png)
-
-Você tem liberdade de desenvolve-lo como bem entender.
-
-Os dados podem ser salvos em um banco de dados, um arquivo, localstorage.
-
-Em caso de dúvidas entre em contato com adronilson@pontosistemas.com.br
-
-OBS: ENVIAR UM BREVE TUTORIAL DE COMO INSTALAR / UTILIZAR A APLICAÇÃO
-
-## Critérios de Avaliação
-
-- Organização
-- Semântica
-- Decisões Técnicas
-- Ferramentas Utilizadas
+Os passos para instalação são os seguintes:
+1º Acessar o endereço "https://github.com/Raffsx/Desafio-Desenvolvedor-da-Ponto-Sistemas.git"(Sem aspas) ou inserindo o arquivo anexo na IDE após extrai-lo;
+2º Clonar o projeto no formato ZIP ou pela própria IDE de sua preferência;
+3º Baixar e instalar o plugin Lombok na IDE(https://projectlombok.org/download);
+4º Aguardar o download do projeto finalizar, realizar o Build do modulo "usuarios";
+5º Baixar as dependências do maven;
+6º Executar a classe "UsuariosAplication" (br.com.cadastro.usuarios);
+7º Acessar o URL "http://localhost:8081/usuario"(Sem aspas) pelo navegador. 
 
 
-## Formas de Entrega
-
-- E-mail
-- Pull Request
-- Link Repositório
-
-## Tecnologias que utilizamos na Ponto Sistemas
-
--> Frontend
-- CSS
-- Html
-- JavaScript
-
-
--> Backend
-- Java
-- Php
